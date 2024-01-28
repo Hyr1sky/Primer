@@ -1,0 +1,130 @@
+body {
+  background-color: #fff;
+  color: #555555;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  line-height: 1;
+
+  /* font: normal 16px Arial, Helvetica, sans-serif */
+}
+
+.box1 {
+  background-color: aquamarine;
+  color: cadetblue;
+  padding: 8px;
+  font-weight: bold;
+  border-right: 5px cadetblue solid;
+  border-bottom: 5px #b9e711 dotted;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.box1 h1 {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  font-style: bold;
+  text-decoration: dashed;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  word-spacing: 50px;
+}
+
+.son {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  border: #b9e711 dotted;
+}
+
+.List li {
+  list-style-image: url("../asset/check.png");
+  /* list-style-position: inside; */
+}
+
+.list2 li:nth-child(2n) {
+  background-color: #b9e711;
+}
+
+.container {
+  width: 60%;
+  height: 100%;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+.block {
+  float: left;
+  width: 31%;
+  box-sizing: border-box;
+  border: 3px #b9e711 dotted;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+button {
+  background-color: #b9e711;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #b9e711;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #b9e711;
+  border: 1px solid #b9e711;
+}
+
+button:active {
+  background-color: #fff;
+  color: #f1ac17;
+  border: 1px solid #f1ac17;
+}
+
+a {
+  text-decoration: none;
+  color: #555555;
+}
+
+a:visited {
+  color: #f1ac17;
+}
+
+a:hover {
+  color: #b9e711;
+}
+
+#main-block {
+  background-color: #dff396;
+  float: left;
+  width: 70%;
+  height: 100%;
+  padding: 5px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+#sidebar {
+  background-color: #b9e711;
+  float: right;
+  width: 30%;
+  height: 100%;
+  padding: 5px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+#fixed {
+    position: fixed;
+    color:#b9e711;
+    right: 10px;
+    bottom: 10px;
+}
